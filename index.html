@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfoli landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- //font-awesome link//////// -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="dark-mode">
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <h2>Rayyan Ahmed</h2>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact us</a></li>
+        </ul>
+        <div class="nav-right">
+          <i class="fa-solid fa-moon" function="onclick"></i>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="header" id="home">
+        <div class="container">
+          <div class="about-me">
+            <h2>hello I'm</h2>
+            <h3>Rayyan</h3>
+            <h4>Ahmed</h4>
+            <a href="#">Hire me</a>
+          </div>
+          <div class="header-img">
+            <img src="./circle.png" />
+          </div>
+        </div>
+      </section>
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="about-img reveal">
+            <!-- <img src="./circle.png"> -->
+          </div>
+          <div class="about-content reveal">
+            <h2>About</h2>
+            <textarea cols="40px">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sed numquam perspiciatis consequuntur, rerum laborum iste sit non deleniti blanditiis quam voluptates reiciendis fugit magni ducimus explicabo quae amet eius.lorem12 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ut impedit perspiciatis ipsum dolor sit amet consectetur adipisicing elit. Maiores vero eligendi sapiente laboriosam enim id eveniet dolore officiis, hic reiciendis omnis sint perferendis in quas at quo iusto. Hic tempore numquam quisquam esse accusantium reiciendis praesentium molestias voluptate enim voluptatum. ipsum dolor sit amet consectetur adipisicing elit. Odit dolor doloribus quod dolore at esse voluptate quae enim, eveniet magnam minus, quisquam nesciunt asperiores non ea ab. Ad, aliquid aspernatur </textarea
+            >
+            <a href="#">Download Cv</a>
+          </div>
+        </div>
+      </section>
+      <section class="skill" id="skill">
+        <div class="container">
+          <div class="skill-deu reveal">
+            <h2>1 Year</h2>
+            <p>Experiance</p>
+          </div>
+          <div class="skill-des reveal">
+            <div class="box">
+              Html
+              <p>100%</p>
+              <span style="width: 100%"></span>
+            </div>
+            <div class="box">
+              css
+              <p>80%</p>
+              <span style="width: 80%"></span>
+            </div>
+            <div class="box">
+              javaScript
+              <p>30%</p>
+              <span style="width: 30%"></span>
+            </div>
+            <div class="box">
+              Bootstrap
+              <p>80%</p>
+              <span style="width: 80%"></span>
+            </div>
+            <div class="box">
+              jQuery
+              <p>10%</p>
+              <span style="width: 10%"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <div class="portfolio-title">
+            <h2 class="reveal">Portfolio</h2>
+            <p class="reveal">Clone Landing Pages</p>
+          </div>
+          <div class="row-1">
+            <img class="reveal" src="./img/P1img.png" alt="" />
+            <img class="reveal" src="./img/P2img.png" alt="" />
+            <img class="reveal" src="./img/P3img.png" alt="" />
+          </div>
+          <div class="row-2">
+            <img class="reveal" src="./img/P1img.png" alt="" />
+            <img class="reveal" src="./img/P2img.png" alt="" />
+            <img class="reveal" src="./img/P3img.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="main">
+            <div class="title">
+              <h2>Send Message</h2>
+            </div>
+            <div class="row-1 reveal">
+              <input type="text" placeholder="first name" />
+              <input type="text" placeholder="last name" />
+            </div>
+
+            <div class="row-2 reveal">
+              <input class="reveal" type="email" placeholder="email" />
+              <textarea
+                class="reveal"
+                rows="20"
+                cols="30"
+                placeholder="Message"
+              ></textarea>
+              <button class="reveal">send</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <span class="footer-title">Rayyan Ahmed</span>
+      <p>Copyright @2026 <a href="#">Rayyan Ahmed</a>. All Rights Reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
